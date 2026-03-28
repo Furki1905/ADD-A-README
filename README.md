@@ -1,0 +1,1 @@
+Hi, I'm a high school senior who's passionate about web design. I've been taking web development courses at school for three years. This is my first major project, and I'm continuing to improve my skills.
