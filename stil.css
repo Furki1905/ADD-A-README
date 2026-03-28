@@ -1,0 +1,93 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+}
+a:hover
+{
+    color: white;
+}
+.a1
+{
+    background-color: black;
+    border-radius: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.b1
+{
+    color: black;
+}
+.o
+{
+    color: black;
+}
+.o:hover
+{
+    color: blue;
+}
+h1
+{
+    border: solid 4px;
+    border-color: black;
+    color: white;
+    margin-left: 800px;
+    margin-right: 800px;
+    border-radius: 20px;
+}
+.buyuk
+{
+    color: black;
+    background-color: white;
+}
+.buyuk:hover
+{
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+.menuAlani
+{
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    color: antiquewhite;
+    display: flex;/*bunun içindeki divler yanyana olur*/
+    justify-content: space-around;/*yatay hizalama eşit boşluklu*/
+    align-items: center;/*kutuları dikey hizalar*/
+    margin-bottom: 10px;/*dış alt boşluk*/
+    position: sticky;/*bu divi sabitler*/
+    top: 0;/*sabitlediği nokta*/
+    padding-top: 17px;/*üst menünün sayfanın en üstüne 0'a 0 olması için dış boşluk ayarı*/
+    padding-bottom: 17px;
+    padding-right: 0px;
+}
+.menu ul
+{
+    list-style: none;/*liste işaretini kaldırır*/
+    display: flex;/*menü elemanlarını yan yana yapar*/
+}
+.menu ul li
+{
+    padding: 10px 20px;/*her liste elemanı için iç boşluklar*/
+}
+.menu ul li a
+{
+    text-decoration: none;/*alt çizgiyi kaldırdı*/
+    color: antiquewhite;/*yazı rengi*/
+    font-size: 18px;/*yazı boyutu*/
+    padding: 28px 15px;/*dış boşluk*/
+}
+.menu a:hover
+{
+    background-color: antiquewhite;
+    color: black;
+}
+h3
+{
+    padding: 10px;
+}
